@@ -1,0 +1,41 @@
+{
+  "name": "oscardomingo-website",
+  "version": "0.1.0",
+  "description": "Personal portfolio for Oscar Domingo (@minkiu).",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Minkiu/oscardomingo.eu.git"
+  },
+  "keywords": [
+    "oscar",
+    "domingo",
+    "portfolio",
+    "website"
+  ],
+  "author": "Oscar Domingo (@minkiu)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Minkiu/oscardomingo.eu/issues"
+  },
+  "homepage": "https://github.com/Minkiu/oscardomingo.eu#readme",
+  "devDependencies": {
+    "browser-sync": "^2.16.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cache": "^0.4.5",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-if": "^2.0.1",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-useref": "^3.1.2",
+    "hamburgers": "^0.5.0",
+    "run-sequence": "^1.2.2"
+  }
+}
