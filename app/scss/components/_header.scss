@@ -1,14 +1,16 @@
 .header {
     width:100%;
-
-}
-
-.header__hamburger {
-
 }
 
 .header__logo {
-    display:inline-block;
-    max-width:200px;
-    margin:0 auto;
+  margin-left: $spacing;
+  display: inline-block;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.menu__elem {
+    margin-left: $spacing;
 }
