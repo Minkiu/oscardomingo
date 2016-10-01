@@ -1,16 +1,40 @@
 .header {
-    width:100%;
+  width:100%;
+  font-family: $font-secondary;
 }
 
 .header__logo {
   margin-left: $spacing;
   display: inline-block;
+  text-decoration:none;
 }
 
+
+
+
+/**
+* Main Navigation Menu
+**/
 .menu {
-    display: inline-block;
+  display: inline-block;
+
 }
+
 
 .menu__elem {
-    margin-left: $spacing;
+  margin-left: $spacing;
+
+}
+
+
+.header__link {
+ color: $color-primary;
+ text-decoration:none;
+
+}
+
+
+.header__link:hover {
+  color:$color-fiery;
+  text-decoration: underline;
 }
