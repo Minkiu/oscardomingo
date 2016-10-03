@@ -14,29 +14,34 @@
 </section>
 
 <section class="block block--inline">
- <h1 class="block__title"> <a href="{{ .Site.BaseURL }}/blog/" class="block__link">Latest Works</a></h1>
+  <h1 class="block__title"> <a href="{{ .Site.BaseURL }}/works/" class="block__link">Latest Works</a></h1>
+  {{ range where .Data.Pages "Section" "works" }}
+  <div class="block__elem block__works" id="imageBackground" data-image-src="{{ .Params.banner | absURL }}"> 
+    <a href="{{ .Permalink }}">
+      <div class="block__text--overlay">
+       {{ .Title }}
+     </div>
+   </a>
+ </div>
+ {{ end }}
 
 
- <div class="block__elem block__works" id="imageBackground" data-image-src="http://placehold.it/512x90"> 
-  <a href="#">
-    <div class="block__text--overlay">
-      oki-ni.com - Dev
-    </div>
-  </a>
-</div>
 </section>
 
 
 <section class="block block--inline">
 
   <h1 class="block__title"> <a href="{{ .Site.BaseURL }}/blog/" class="block__link">Blog</a></h1>
-
+  {{ range where .Data.Pages "Section" "blog" }}
   <div class="block__elem block__post">
-    <h2 class="block__subtitle"> <a href="#" class="block__link">Title</a></h2>
-    <span class="block__meta">Date</span>
-    <p class="block__excerpt"> Excerpt</p>
-    <span class="block__readMore"> <a href="#" class="block__link">Read More...</a> </span>
+    <h2 class="block__subtitle"> <a href="{{ .Permalink }}" class="block__link">{{ .Title }}</a></h2>
+    <span class="block__meta">{{ .Date.Format "January 2, 2006" }}</span>
+    <p class="block__excerpt"> {{ .Description }}</p>
+    <span class="block__readMore"> <a href="{{ .Permalink }}" class="block__link">Read More...</a> </span>
   </div>
+  
+
+  {{ end }}
 
 
 </section>
