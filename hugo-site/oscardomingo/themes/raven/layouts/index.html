@@ -1,0 +1,45 @@
+ {{ partial "header.html" . }}
+
+
+ <section class="block">
+  <div class="block__text">
+   Hi there,
+   <br> <br>
+   I am Oscar Domingo, and I am <span class="block__text--description">
+   a web developer</span>.
+   <br><br>
+   Below you will be able to see my latest works (including personal projects) and a irregulary updated blog with my ramblings, which might include web development, cgi, linux or a completely unrelated topic.
+
+ </div>
+</section>
+
+<section class="block block--inline">
+ <h1 class="block__title"> <a href="{{ .Site.BaseURL }}/blog/" class="block__link">Latest Works</a></h1>
+
+
+ <div class="block__elem block__works" id="imageBackground" data-image-src="http://placehold.it/512x90"> 
+  <a href="#">
+    <div class="block__text--overlay">
+      oki-ni.com - Dev
+    </div>
+  </a>
+</div>
+</section>
+
+
+<section class="block block--inline">
+
+  <h1 class="block__title"> <a href="{{ .Site.BaseURL }}/blog/" class="block__link">Blog</a></h1>
+
+  <div class="block__elem block__post">
+    <h2 class="block__subtitle"> <a href="#" class="block__link">Title</a></h2>
+    <span class="block__meta">Date</span>
+    <p class="block__excerpt"> Excerpt</p>
+    <span class="block__readMore"> <a href="#" class="block__link">Read More...</a> </span>
+  </div>
+
+
+</section>
+
+
+{{ partial "footer.html" . }}
