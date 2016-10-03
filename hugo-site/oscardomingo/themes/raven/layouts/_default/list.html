@@ -1,0 +1,20 @@
+ {{ partial "header.html" . }}
+
+
+
+ <section class="block--blog">
+  <h1 class="block__title"> {{ .Title }}</h1>
+  <div class="block__text--intro">
+    Here is the list of all my blog posts.
+  </div>
+  
+  {{- range .Data.Pages }}
+  <div class="block__elem block__post">
+    <h2 class="block__subtitle"> <a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    <span class="block__meta">27th September 2016</span>
+    <p class="block__excerpt"> {{ .Description}}</p>
+  </div>
+  {{- end }}
+
+
+  {{ partial "footer.html" . }}

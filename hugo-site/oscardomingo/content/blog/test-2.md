@@ -1,15 +1,10 @@
 +++
-date = "2016-09-23T17:27:02+01:00"
-title = "hello world"
-excerpt = "The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. "
+date = "2016-09-27T17:27:02+01:00"
+title = "second post"
+description = "The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. "
 
 +++
 
-<div class="block__text--intro">
-   <h2 class="block__subtitle"> Personal Project </h2>
-   <br>
-   CGI Scene inspired by a spanish rock/ska band, which in one of their songs they say "the blood of their kids fill up our fridges",thi idea goes back to 2012, when I was on a road trip with friends afte{{ .Content }}r an amazing summer, and ever since I've been giving it exporadic thoughs, to eventually this year, create it.
- </div>
 
  <p class="block__text">
    The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.

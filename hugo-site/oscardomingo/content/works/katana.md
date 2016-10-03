@@ -1,8 +1,8 @@
 +++
-date = "2016-09-23T17:27:02+01:00"
-title = "hello world"
-excerpt = "The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. "
-
+date = "2016-09-20T17:27:02+01:00"
+title = "Katana"
+description = "The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. "
+banner = "http://placehold.it/512x90"
 +++
 
 <div class="block__text--intro">
