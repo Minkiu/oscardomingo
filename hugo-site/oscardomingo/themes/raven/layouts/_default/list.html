@@ -10,8 +10,8 @@
   
   {{- range .Data.Pages }}
   <div class="block__elem block__post">
-    <h2 class="block__subtitle"> <a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-    <span class="block__meta">27th September 2016</span>
+    <h2 class="block__subtitle"> <a href="{{ .Permalink }}" class="block__link">{{ .Title }}</a></h2>
+    <span class="block__meta">{{ .Date.Format "January 2, 2006" }}</span>
     <p class="block__excerpt"> {{ .Description}}</p>
   </div>
   {{- end }}

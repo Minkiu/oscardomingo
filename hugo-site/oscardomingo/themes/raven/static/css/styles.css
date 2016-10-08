@@ -483,7 +483,16 @@ html {
   color: #011627;
   text-decoration: none; }
 
-.block__link:hover {
+.block__link--p {
+  color: #011627;
+  text-decoration: underline; }
+
+.block__link:visited,
+.block__link--p:visited {
+  color: #011627; }
+
+.block__link:hover,
+.block__link--p:hover {
   color: #E71D36;
   text-decoration: underline; }
 
@@ -498,7 +507,7 @@ html {
   background-size: 100%; }
 
 .block__text--overlay {
-  color: #011627;
+  color: #F0E5DE;
   display: table;
   width: 100%;
   height: 100%;
@@ -510,7 +519,8 @@ html {
   top: 0;
   padding-top: 1.25em;
   z-index: 100;
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  text-shadow: 0px 1px 1px #606060; }
 
 .block__works:hover .block__text--overlay {
   background: rgba(0, 0, 0, 0.4);
