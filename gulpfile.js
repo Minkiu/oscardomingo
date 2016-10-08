@@ -12,6 +12,11 @@ var cache = require('gulp-cache');
 var del = require('del');
 var runSequence = require('run-sequence');
 
+// Basic Gulp task syntax
+gulp.task('hello', function() {
+  console.log('Hello Zell!');
+})
+
 // Development Tasks 
 // -----------------
 
@@ -20,8 +25,8 @@ gulp.task('browserSync', function() {
   browserSync({
     server: {
       baseDir: 'app'
-  }
-})
+    }
+  })
 })
 
 gulp.task('sass', function() {
@@ -30,8 +35,8 @@ gulp.task('sass', function() {
     .pipe(gulp.dest('app/css')) // Outputs it in the css folder
     .pipe(browserSync.reload({ // Reloading with Browser Sync
       stream: true
-  }));
-})
+    }));
+  })
 
 // Watchers
 gulp.task('watch', function() {
@@ -48,8 +53,9 @@ gulp.task('useref', function() {
 
   return gulp.src('app/*.html')
   .pipe(useref())
-  .pipe(gulpIf('*.js', uglify()))
   .pipe(gulpIf('*.css', cssnano()))
+  .pipe(gulpIf('*.js', uglify()))
+  
   .pipe(gulp.dest('dist'));
 });
 
@@ -59,9 +65,9 @@ gulp.task('images', function() {
     // Caching images that ran through imagemin
     .pipe(cache(imagemin({
       interlaced: true,
-  })))
+    })))
     .pipe(gulp.dest('dist/images'))
-});
+  });
 
 // Copying fonts 
 gulp.task('fonts', function() {
@@ -73,7 +79,7 @@ gulp.task('fonts', function() {
 gulp.task('clean', function() {
   return del.sync('dist').then(function(cb) {
     return cache.clearAll(cb);
-});
+  });
 })
 
 gulp.task('clean:dist', function() {

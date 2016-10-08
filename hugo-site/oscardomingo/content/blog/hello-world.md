@@ -1,28 +1,28 @@
 +++
-date = "2016-09-23T17:27:02+01:00"
-title = "hello world"
-excerpt = "The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. "
-
+date = "2016-10-08T21:00:00+01:00"
+title = "Hello World"
+description = "What, why and when of this blog. "
 +++
 
 <div class="block__text--intro">
-   <h2 class="block__subtitle"> Personal Project </h2>
-   <br>
-   CGI Scene inspired by a spanish rock/ska band, which in one of their songs they say "the blood of their kids fill up our fridges",thi idea goes back to 2012, when I was on a road trip with friends afte{{ .Content }}r an amazing summer, and ever since I've been giving it exporadic thoughs, to eventually this year, create it.
+     First blog post of the many to come on a irregular basis, and from dispar topics, read below for more info.
  </div>
 
  <p class="block__text">
-   The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.
+   <h2 class="block__subtitle"> What </h2><br>
+   A blog, that will support my personal portoflio. Which is built with a Static Webpage Generator called <a href="https://gohugo.io/" class="block_link block__link--p">Hugo</a>, with a custom template created by me specificly for this site, using paper and pencil, html, sass and javascript. I consider this website a ongoing project, and I am launching it being aware thats it's not complete.
+  </p>
+  <p class="block__text">
+  I intend to write irregulary in topics that span from web development to cgi, including Linux and updates of my current projects.
  </p>
- <img class="block__image" src="http://placehold.it/1024x500" >
- <p class="block__text">
-   Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass.
+  <p class="block__text">
+<h2 class="block__subtitle"> Why </h2><br>
+   I always wanted to have a blog, never knew what to talk about, cause sometimes it's hard to focus on a topic. <br>
+   Why Hugo? I had to help a friend with a Jekyll website, and start diggin in the Static Content Generators, and Hugo peaked my curiosity, and I though it would be cool to learn something new.
  </p>
 
  <p class="block__text">
-   Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.
+  <h2 class="block__subtitle"> When </h2><br>
+  Irregular. I don't want to set a minimum post cause writing is not what I pursue.
  </p>
 
- <p class="block__text">
-   Look, just because I don't be givin' no man a foot massage don't make it right for Marsellus to throw Antwone into a glass motherfuckin' house, fuckin' up the way the nigger talks. Motherfucker do that shit to me, he better paralyze my ass, 'cause I'll kill the motherfucker, know what I'm sayin'?
- </p>

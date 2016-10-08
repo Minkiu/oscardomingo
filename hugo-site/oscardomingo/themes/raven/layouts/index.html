@@ -5,10 +5,9 @@
   <div class="block__text">
    Hi there,
    <br> <br>
-   I am Oscar Domingo, and I am <span class="block__text--description">
-   a web developer</span>.
+   I am Oscar Domingo, find out more <a href="{{ .Site.BaseURL }}about/" class="block__link--p">about me</a>.
    <br><br>
-   Below you will be able to see my latest works (including personal projects) and a irregulary updated blog with my ramblings, which might include web development, cgi, linux or a completely unrelated topic.
+   Below you will be able to see my latest works (including personal projects) and an irregulary updated blog with my ramblings, which might include web development, cgi, linux or a completely unrelated topic.
 
  </div>
 </section>
@@ -16,8 +15,8 @@
 <section class="block block--inline">
   <h1 class="block__title"> <a href="{{ .Site.BaseURL }}/works/" class="block__link">Latest Works</a></h1>
   {{ range where .Data.Pages "Section" "works" }}
-  <div class="block__elem block__works" id="imageBackground" data-image-src="{{ .Params.banner | absURL }}"> 
-    <a href="{{ .Permalink }}">
+  <div class="block__elem block__works" style="background: url({{ .Params.banner | absURL }}) center center / cover no-repeat;"> 
+    <a href="{{ .Permalink }}" class="block__link">
       <div class="block__text--overlay">
        {{ .Title }}
      </div>

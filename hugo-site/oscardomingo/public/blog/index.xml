@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Oscar Domingo - Portfolio</title>
+    <link>http://oscardomingo.eu/blog/</link>
+    <description>Recent content in Blogs on Oscar Domingo - Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 08 Oct 2016 21:00:00 +0100</lastBuildDate>
+    <atom:link href="http://oscardomingo.eu/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://oscardomingo.eu/blog/hello-world/</link>
+      <pubDate>Sat, 08 Oct 2016 21:00:00 +0100</pubDate>
+      
+      <guid>http://oscardomingo.eu/blog/hello-world/</guid>
+      <description>&lt;div class=&#34;block__text--intro&#34;&gt;
+     First blog post of the many to come on a irregular basis, and from dispar topics, read below for more info.
+ &lt;/div&gt;
+
+&lt;p&gt;&lt;p class=&#34;block__text&#34;&gt;
+   &lt;h2 class=&#34;block__subtitle&#34;&gt; What &lt;/h2&gt;&lt;br&gt;
+   A blog, that will support my personal portoflio. Which is built with a Static Webpage Generator called &lt;a href=&#34;https://gohugo.io/&#34; class=&#34;block_link block__link--p&#34;&gt;Hugo&lt;/a&gt;, with a custom template created by me specificly for this site, using paper and pencil, html, sass and javascript. I consider this website a ongoing project, and I am launching it being aware thats it&amp;rsquo;s not complete.
+  &lt;/p&gt;
+  &lt;p class=&#34;block__text&#34;&gt;
+  I intend to write irregulary in topics that span from web development to cgi, including Linux and updates of my current projects.
+ &lt;/p&gt;
+  &lt;p class=&#34;block__text&#34;&gt;
+&lt;h2 class=&#34;block__subtitle&#34;&gt; Why &lt;/h2&gt;&lt;br&gt;
+   I always wanted to have a blog, never knew what to talk about, cause sometimes it&amp;rsquo;s hard to focus on a topic. &lt;br&gt;
+   Why Hugo? I had to help a friend with a Jekyll website, and start diggin in the Static Content Generators, and Hugo peaked my curiosity, and I though it would be cool to learn something new.
+ &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p class=&#34;block__text&#34;&gt;
+  &lt;h2 class=&#34;block__subtitle&#34;&gt; When &lt;/h2&gt;&lt;br&gt;
+  Irregular. I don&amp;rsquo;t want to set a minimum post cause writing is not what I pursue.
+ &lt;/p&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

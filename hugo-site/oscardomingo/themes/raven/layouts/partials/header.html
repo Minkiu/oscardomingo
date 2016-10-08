@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title></title>
+  <title>{{ .Title }}</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -18,13 +18,13 @@
 
     <div class="header__logo">
       <a href="{{ .Site.BaseURL }}" class="header__link">
-        <h1>ODR</h1>
+        <h1>Home</h1>
       </a>
     </div>
 
     <div class="menu">
-      <a href="{{ .Site.BaseURL }}/works/" class="menu__elem header__link">works</a>
-      <a href="{{ .Site.BaseURL }}/about/" class="menu__elem header__link">about</a>
-      <a href="{{ .Site.BaseURL }}/blog/" class="menu__elem header__link">blog</a>
+      <a href="{{ .Site.BaseURL }}works/" class="menu__elem header__link">works</a>
+      <a href="{{ .Site.BaseURL }}about/" class="menu__elem header__link">about</a>
+      <a href="{{ .Site.BaseURL }}blog/" class="menu__elem header__link">blog</a>
     </div>
   </header>

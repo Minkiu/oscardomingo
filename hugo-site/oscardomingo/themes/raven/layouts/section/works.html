@@ -1,0 +1,28 @@
+ {{ partial "header.html" . }}
+
+
+
+ <section class="block block--inline">
+  <h1 class="block__title"> {{ .Title }}</h1>
+  <div class="block__text--intro">
+    Here is the list of all my latest works.
+  </div>
+  
+  {{- range .Data.Pages }}
+
+  <div class="block__elem block__works" style="background: url({{ .Params.banner | absURL }}) center center / cover no-repeat;"> 
+    <a href="{{ .Permalink }}" class="block__link">
+      <div class="block__text--overlay">
+       {{ .Title }}
+     </div>
+   </a>
+ </div>
+ {{- end }}
+
+
+</section>
+
+
+
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oscar Domingo - Portfolio</title>
+    <link>http://oscardomingo.eu/</link>
+    <description>Recent content on Oscar Domingo - Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 08 Oct 2016 21:00:00 +0100</lastBuildDate>
+    <atom:link href="http://oscardomingo.eu/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://oscardomingo.eu/blog/hello-world/</link>
+      <pubDate>Sat, 08 Oct 2016 21:00:00 +0100</pubDate>
+      
+      <guid>http://oscardomingo.eu/blog/hello-world/</guid>
+      <description>&lt;div class=&#34;block__text--intro&#34;&gt;
+     First blog post of the many to come on a irregular basis, and from dispar topics, read below for more info.
+ &lt;/div&gt;
+
+&lt;p&gt;&lt;p class=&#34;block__text&#34;&gt;
+   &lt;h2 class=&#34;block__subtitle&#34;&gt; What &lt;/h2&gt;&lt;br&gt;
+   A blog, that will support my personal portoflio. Which is built with a Static Webpage Generator called &lt;a href=&#34;https://gohugo.io/&#34; class=&#34;block_link block__link--p&#34;&gt;Hugo&lt;/a&gt;, with a custom template created by me specificly for this site, using paper and pencil, html, sass and javascript. I consider this website a ongoing project, and I am launching it being aware thats it&amp;rsquo;s not complete.
+  &lt;/p&gt;
+  &lt;p class=&#34;block__text&#34;&gt;
+  I intend to write irregulary in topics that span from web development to cgi, including Linux and updates of my current projects.
+ &lt;/p&gt;
+  &lt;p class=&#34;block__text&#34;&gt;
+&lt;h2 class=&#34;block__subtitle&#34;&gt; Why &lt;/h2&gt;&lt;br&gt;
+   I always wanted to have a blog, never knew what to talk about, cause sometimes it&amp;rsquo;s hard to focus on a topic. &lt;br&gt;
+   Why Hugo? I had to help a friend with a Jekyll website, and start diggin in the Static Content Generators, and Hugo peaked my curiosity, and I though it would be cool to learn something new.
+ &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p class=&#34;block__text&#34;&gt;
+  &lt;h2 class=&#34;block__subtitle&#34;&gt; When &lt;/h2&gt;&lt;br&gt;
+  Irregular. I don&amp;rsquo;t want to set a minimum post cause writing is not what I pursue.
+ &lt;/p&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Content Hub at oki-ni</title>
+      <link>http://oscardomingo.eu/works/editorial-oki-ni/</link>
+      <pubDate>Thu, 22 Sep 2016 17:27:02 +0100</pubDate>
+      
+      <guid>http://oscardomingo.eu/works/editorial-oki-ni/</guid>
+      <description>&lt;div class=&#34;block__text--twoCol&#34;&gt;
+   &lt;h2 class=&#34;block__subtitle&#34;&gt; Commisioned Work &lt;/h2&gt;
+   &lt;br&gt;
+  Since we migrated from another platform (at &lt;a href=&#34;https://www.oki-ni.com&#34; class=&#34;block__link block__link--p&#34;&gt;oki-ni&lt;/a&gt;), we had to rethink how to keep the blog section we had in the old website, and that Demandware doesn&#39;t support by default.
+ &lt;/div&gt;
+ &lt;div class=&#34;block__text--twoCol&#34;&gt;
+   &lt;h2 class=&#34;block__subtitle&#34;&gt; Skills used&lt;/h2&gt;
+   &lt;br&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Wordpress (PHP) and Plugins&lt;/li&gt;
+    &lt;li&gt;Wordpress Theme (HTML/CSS/JS)&lt;/li&gt;
+    &lt;/ul&gt;
+ &lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://editorial.oki-ni.com&#34;&gt;
+ &lt;img class=&#34;block__image&#34; src=&#34;http://oscardomingo.eu/img/work_editorialHub.png&#34; &gt;
+ &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p class=&#34;block__text&#34;&gt;
+  So we concluded that a blog built with Wordpress would fit our needs, and so, I developed a bespoke template for what we today know as Editorial at &lt;a href=&#34;http://editorial.oki-ni.com&#34; class=&#34;block__link block__link--p&#34;&gt;editorial.oki-ni.com&lt;/a&gt;
+ &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p class=&#34;block__text&#34;&gt;
+The main page is a Masonry (&lt;a href=&#34;http://masonry.desandro.com/&#34; class=&#34;block__link block__link--p&#34;&gt;Desandro&amp;rsquo;s&lt;/a&gt;) grid, with a infinite scroll and lazy loading plugin.
+ &lt;/p&gt;
+  &lt;p class=&#34;block__text&#34;&gt;
+  The site makes use of custom post types for each section of the blog, allowing more freedom on the look of each of them.
+ &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p class=&#34;block__text&#34;&gt;
+ The site is constantly going under changes to try improve the speed loads and the usability of it.
+ &lt;/p&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>byOcular</title>
+      <link>http://oscardomingo.eu/works/byocular/</link>
+      <pubDate>Thu, 22 Sep 2016 17:27:02 +0100</pubDate>
+      
+      <guid>http://oscardomingo.eu/works/byocular/</guid>
+      <description>&lt;div class=&#34;block__text--twoCol&#34;&gt;
+   &lt;h2 class=&#34;block__subtitle&#34;&gt; Freelance Work &lt;/h2&gt;
+   &lt;br&gt;
+ byOcular new website, designs by &lt;a href=&#34;http://www.simonsherlock.com&#34; class=&#34;block__link--p&#34;&gt;Simon Sherlock&lt;/a&gt;.
+ &lt;/div&gt;
+ &lt;div class=&#34;block__text--twoCol&#34;&gt;
+   &lt;h2 class=&#34;block__subtitle&#34;&gt; Skills used&lt;/h2&gt;
+   &lt;br&gt;
+  &lt;ul&gt;
+    &lt;li&gt;HTML/SASS(CSS)/JS&lt;/li&gt;
+    &lt;li&gt;Gulp&lt;/li&gt;
+    &lt;/ul&gt;
+ &lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.byocular.com&#34;&gt;
+ &lt;img class=&#34;block__image&#34; src=&#34;http://oscardomingo.eu/img/work_byOcular.png&#34; &gt;
+ &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p class=&#34;block__text&#34;&gt;
+  Visit the website at &lt;a href=&#34;http://www.byocular.com&#34; class=&#34;block__link block__link--p&#34;&gt;byocular.com&lt;/a&gt;
+ &lt;/p&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Katana - CGI</title>
+      <link>http://oscardomingo.eu/works/katana/</link>
+      <pubDate>Tue, 20 Sep 2016 17:27:02 +0100</pubDate>
+      
+      <guid>http://oscardomingo.eu/works/katana/</guid>
+      <description>&lt;p&gt;&lt;div class=&#34;block__text--twoCol&#34;&gt;
+   &lt;h2 class=&#34;block__subtitle&#34;&gt; Personal Work &lt;/h2&gt;
+   &lt;br&gt;
+   Integration of a CG object (a pair of katanas) in a real photograph.&lt;br&gt;
+  Made on February of 2014.
+ &lt;/div&gt;
+ &lt;div class=&#34;block__text--twoCol&#34;&gt;
+   &lt;h2 class=&#34;block__subtitle&#34;&gt; Skills used&lt;/h2&gt;
+   &lt;br&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Modeling (Autodesk Maya)&lt;/li&gt;
+    &lt;li&gt;Texturing (Adobe Photoshop)&lt;/li&gt;
+    &lt;li&gt;Lightning and Rendering (mentalRay)&lt;/li&gt;
+    &lt;li&gt;Coloring, correction and compositing (The Foundry Nuke)&lt;/li&gt;
+    &lt;/ul&gt;
+ &lt;/div&gt;
+ &lt;img class=&#34;block__image&#34; src=&#34;http://oscardomingo.eu/img/work_Katana.jpg&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p class=&#34;block__text&#34;&gt;
+ Check it out at &lt;a href=&#34;https://www.artstation.com/artwork/GzQXW&#34; class=&#34;block__link block__link--p&#34;&gt;Artstation &lt;/a&gt;
+ &lt;/p&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://oscardomingo.eu/about/</link>
+      <pubDate>Sun, 18 Jan 2015 22:01:00 -0600</pubDate>
+      
+      <guid>http://oscardomingo.eu/about/</guid>
+      <description>&lt;div class=&#34;block__text--intro&#34;&gt;
+     &lt;h2 class=&#34;block__subtitle&#34;&gt; Oscar Domingo Ramos &lt;/h2&gt;
+     &lt;br&gt;
+     I was born and raised in Barcelona, studied Uni (Multimedia Degree) in Barcelona, and after a while working as full stack developer in a small company, I decided to take the leap to London, where I decide to increase my skillset by studying a course of 3D for visual effects. I don&#39;t like to label myself in one field (web dev) or the other (cgi), since I enjoy both a lot.
+     &lt;h2 class=&#34;block__subtitle&#34;&gt; Contact &lt;/h2&gt;
+     If you would like to reach me you can do so by:&lt;br&gt;
+     Writing me an email at &lt;a href=&#34;mailto:hello@oscardomingo.eu&#34; class=&#34;block__link block__link--p&#34;&gt;hello@oscardomingo.eu&lt;/a&gt;&lt;br&gt;
+     Saying hi &lt;a href=&#34;https://www.twitter.com/minkiu&#34; class=&#34;block__link block__link--p&#34;&gt;@minkiu&lt;/a&gt; on Twitter.&lt;br&gt;
+     Connecting with my LinkedIn profile &lt;a href=&#34;https://uk.linkedin.com/in/oscardomingoramos&#34; class=&#34;block__link block__link--p&#34;&gt;Oscar Domingo&lt;/a&gt;.&lt;br&gt;
+Also you can check my &lt;a href=&#34;https://github.com/Minkiu&#34; class=&#34;block__link block__link--p&#34;&gt;Github (minkiu)&lt;/a&gt; profile.
+
+   &lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
