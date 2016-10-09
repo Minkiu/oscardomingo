@@ -3,9 +3,9 @@
 
  <section class="block">
   <div class="block__text">
-   Hi there,
+   <h2 class="block__title">Welcome</h2>
    <br> <br>
-   I am Oscar Domingo, find out more <a href="{{ .Site.BaseURL }}about/" class="block__link--p">about me</a>.
+   My name is Oscar Domingo, you can find out more <a href="{{ .Site.BaseURL }}about/" class="block__link--p">about me</a> following that link.
    <br><br>
    Below you will be able to see my latest works (including personal projects) and an irregulary updated blog with my ramblings, which might include web development, cgi, linux or a completely unrelated topic.
 
@@ -13,7 +13,8 @@
 </section>
 
 <section class="block block--inline">
-  <h1 class="block__title"> <a href="{{ .Site.BaseURL }}/works/" class="block__link">Latest Works</a></h1>
+  <h2 class="block__title"> <a href="{{ .Site.BaseURL }}/works/" class="block__link">Latest Works</a></h2>
+  <br>
   {{ range where .Data.Pages "Section" "works" }}
   <div class="block__elem block__works" style="background: url({{ .Params.banner | absURL }}) center center / cover no-repeat;"> 
     <a href="{{ .Permalink }}" class="block__link">
@@ -30,7 +31,7 @@
 
 <section class="block block--inline">
 
-  <h1 class="block__title"> <a href="{{ .Site.BaseURL }}/blog/" class="block__link">Blog</a></h1>
+  <h2 class="block__title"> <a href="{{ .Site.BaseURL }}/blog/" class="block__link">Blog</a></h2>
   {{ range where .Data.Pages "Section" "blog" }}
   <div class="block__elem block__post">
     <h2 class="block__subtitle"> <a href="{{ .Permalink }}" class="block__link">{{ .Title }}</a></h2>
