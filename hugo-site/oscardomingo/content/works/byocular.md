@@ -20,7 +20,7 @@ banner = "/img/banners/banner_byOcular.png"
  </div>
 
 <a href="http://www.byocular.com">
- <img class="block__image" src="/img/work_byOcular.png" >
+ <img class="block__image" src="https://www.oscardomingo.eu/img/work_byOcular.png" >
  </a>
 
  <p class="block__text">

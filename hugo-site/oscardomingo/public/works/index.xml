@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Works on Oscar Domingo - Portfolio</title>
-    <link>http://oscardomingo.eu/works/</link>
+    <link>https://www.oscardomingo.eu/works/</link>
     <description>Recent content in Works on Oscar Domingo - Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Thu, 22 Sep 2016 17:27:02 +0100</lastBuildDate>
-    <atom:link href="http://oscardomingo.eu/works/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.oscardomingo.eu/works/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Content Hub at oki-ni</title>
-      <link>http://oscardomingo.eu/works/editorial-oki-ni/</link>
+      <link>https://www.oscardomingo.eu/works/editorial-oki-ni/</link>
       <pubDate>Thu, 22 Sep 2016 17:27:02 +0100</pubDate>
       
-      <guid>http://oscardomingo.eu/works/editorial-oki-ni/</guid>
+      <guid>https://www.oscardomingo.eu/works/editorial-oki-ni/</guid>
       <description>&lt;div class=&#34;block__text--twoCol&#34;&gt;
    &lt;h2 class=&#34;block__subtitle&#34;&gt; Commisioned Work &lt;/h2&gt;
    &lt;br&gt;
@@ -30,7 +30,7 @@
  &lt;/div&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://editorial.oki-ni.com&#34;&gt;
- &lt;img class=&#34;block__image&#34; src=&#34;http://oscardomingo.eu/img/work_editorialHub.png&#34; &gt;
+ &lt;img class=&#34;block__image&#34; src=&#34;https://www.oscardomingo.eu/img/work_editorialHub.png&#34; &gt;
  &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;p class=&#34;block__text&#34;&gt;
@@ -52,10 +52,10 @@ The main page is a Masonry (&lt;a href=&#34;http://masonry.desandro.com/&#34; cl
     
     <item>
       <title>byOcular</title>
-      <link>http://oscardomingo.eu/works/byocular/</link>
+      <link>https://www.oscardomingo.eu/works/byocular/</link>
       <pubDate>Thu, 22 Sep 2016 17:27:02 +0100</pubDate>
       
-      <guid>http://oscardomingo.eu/works/byocular/</guid>
+      <guid>https://www.oscardomingo.eu/works/byocular/</guid>
       <description>&lt;div class=&#34;block__text--twoCol&#34;&gt;
    &lt;h2 class=&#34;block__subtitle&#34;&gt; Freelance Work &lt;/h2&gt;
    &lt;br&gt;
@@ -71,7 +71,7 @@ The main page is a Masonry (&lt;a href=&#34;http://masonry.desandro.com/&#34; cl
  &lt;/div&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.byocular.com&#34;&gt;
- &lt;img class=&#34;block__image&#34; src=&#34;http://oscardomingo.eu/img/work_byOcular.png&#34; &gt;
+ &lt;img class=&#34;block__image&#34; src=&#34;https://www.oscardomingo.eu/img/work_byOcular.png&#34; &gt;
  &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;p class=&#34;block__text&#34;&gt;
@@ -82,10 +82,10 @@ The main page is a Masonry (&lt;a href=&#34;http://masonry.desandro.com/&#34; cl
     
     <item>
       <title>Katana - CGI</title>
-      <link>http://oscardomingo.eu/works/katana/</link>
+      <link>https://www.oscardomingo.eu/works/katana/</link>
       <pubDate>Tue, 20 Sep 2016 17:27:02 +0100</pubDate>
       
-      <guid>http://oscardomingo.eu/works/katana/</guid>
+      <guid>https://www.oscardomingo.eu/works/katana/</guid>
       <description>&lt;p&gt;&lt;div class=&#34;block__text--twoCol&#34;&gt;
    &lt;h2 class=&#34;block__subtitle&#34;&gt; Personal Work &lt;/h2&gt;
    &lt;br&gt;
@@ -102,7 +102,7 @@ The main page is a Masonry (&lt;a href=&#34;http://masonry.desandro.com/&#34; cl
     &lt;li&gt;Coloring, correction and compositing (The Foundry Nuke)&lt;/li&gt;
     &lt;/ul&gt;
  &lt;/div&gt;
- &lt;img class=&#34;block__image&#34; src=&#34;http://oscardomingo.eu/img/work_Katana.jpg&#34; &gt;&lt;/p&gt;
+ &lt;img class=&#34;block__image&#34; src=&#34;https://www.oscardomingo.eu/img/work_Katana.jpg&#34; &gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;p class=&#34;block__text&#34;&gt;
  Check it out at &lt;a href=&#34;https://www.artstation.com/artwork/GzQXW&#34; class=&#34;block__link block__link--p&#34;&gt;Artstation &lt;/a&gt;
