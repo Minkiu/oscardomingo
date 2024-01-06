@@ -1,0 +1,11 @@
+[project]
+name = "oscardomingo.com"
+version = "2024.0.1"
+authors = [{name="Oscar Domingo"}]
+description = "A Django powered static site generator for Oscar's personal website."
+readme = "README.md"
+requires-python= ">=3.10"
+dependencies = ["Django==5.0"]
+
+[project.urls]
+Homepage = "https://github.com:Minkiu/oscardomingo"
