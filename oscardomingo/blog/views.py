@@ -1,3 +1,5 @@
+from datetime import datetime
+
 from blog.models import Post, Tag
 from django.shortcuts import get_list_or_404, get_object_or_404, render
 
@@ -12,12 +14,12 @@ def blog_index(request):
     )
 
 
-def blog_post(request, post_id):
-    post = get_object_or_404(Post, pk=post_id)
+def blog_post(request, post_uri):
+    post = get_object_or_404(Post, uri=post_uri)
 
     return render(
         request,
-        "blog/blog_post.html",
+        "blog/post.html",
         {"post": post}
     )
 
