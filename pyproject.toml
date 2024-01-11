@@ -9,3 +9,6 @@ dependencies = ["Django==5.0"]
 
 [project.urls]
 Homepage = "https://github.com:Minkiu/oscardomingo"
+
+[tool.setuptools]
+packages = ["oscardomingo"]
