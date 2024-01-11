@@ -13,6 +13,7 @@ class Post(models.Model):
     created_on = models.DateTimeField(auto_now_add=True)
     last_modified = models.DateTimeField(auto_now=True)
     title = models.CharField(max_length=300)
+    uri = models.CharField(max_length=300)
     tags = models.ManyToManyField("Tag", related_name="posts")
 
     def __str__(self):
