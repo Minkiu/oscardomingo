@@ -1,80 +1,18 @@
-<!doctype html>
-<html class="no-js" lang="en">
+{% extends 'layout.html' %}
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Oscar Domingo - Software Developer</title>
-  <meta name="description" content="Personal website of the software developer, Oscar Domingo.">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="static/styles.css" rel="stylesheet">
-</head>
+{% block content %}
+<section>
+    <p>I am a Software Engineer with a passion for the Free and Open Source communities, currently working for the Visual Effects industry, and I mainly code in Python. <a href="/about.html">More about me</a></p>
+</section>
 
-<body>
-  <nav>
-    <ul>
-      <li><h1><a href="/">Oscar Domingo</a></h1></li>
-      <!-- <li>Blog</li> -->
-    </ul>
-  </nav>
-  <main>
-    <section>
-      <p> I am a Software Developer that knows how to operate several Digital Content Creation Tools, although I don't consider myself an artist.</p>
-      <p>I mostly write Python and Qt for the Visual Effects (VFX) industry, but had working experience with web development, using HTML, CSS (preferably with SASS) and Javacript (coding with jQuery and Vanilla mostly and gulp/webpack for automating/bundling). I am on the process of learning C++ to contribute back to Open Source projects I use on a semi-daily basis.</p> 
-      <p>You can reach me at <a href="https://www.linkedin.com/in/oscardomingoramos/" target="_blank">LinkedIn</a>, <a href="https://github.com/Minkiu" target="_blank">Github</a> or <a href="https://twitter.com/minkiu" target="_blank">Twitter</a>, where I go by the alias of minkiu.</p>
-    </section>
-    <section class="section__resolutions">
-      <div class="section__resolutions-border"> 
-        <div class="triangle-up"></div>
-        <div class="triangle-up"></div>
-        <div class="triangle-up"></div>
-        <div class="triangle-up"></div>
-        <div class="triangle-up"></div>
-        <div class="triangle-up"></div>
-        <div class="triangle-up"></div>
-        <div class="triangle-up"></div>
-        <div class="triangle-up"></div>
-        <div class="triangle-up"></div>
-      </div>
-      <div class="section__resolutions--inner">
-        <h2>2019 Resolutions</h2>
-        <p>Hopefully by writing them here I will give me extra motivation to do them:</p>
-        <ul>
-          <li><s>New year, new website.</s></li>
-          <li>Get in the habit of blogging.</li>
-          <li>Contribute in either one of these Open Sourceprojects:
-            <ul>
-              <li><a href="https://www.gimp.org/">Gimp</a></li>
-              <li><a href="https://www.blender.org/">Blender</a></li>
-              <li><a href="https://extensions.gnome.org/">Gnome Shell Extensions website</a></li>
-            </ul>
-          </li>
-          <li>Start a new Open Source project.</li>
-          <li>Proper learn C/C++</li>
-          <li>Improve my Python skills.</li>
-          <li>Improve my Guitar skills.</li>
-        </ul>
-      </div>
-      <div class="section__resolutions-border"> 
-        <div class="triangle-down"></div>
-        <div class="triangle-down"></div>
-        <div class="triangle-down"></div>
-        <div class="triangle-down"></div>
-        <div class="triangle-down"></div>
-        <div class="triangle-down"></div>
-        <div class="triangle-down"></div>
-        <div class="triangle-down"></div>
-        <div class="triangle-down"></div>
-        <div class="triangle-down"></div>
-      </div>
-    </section>
-  </main>
+<section>
+    {% for post in posts %}
+        <h2 class="post-title"><a href="{{ get_url(post.url) }}">{{ post.title }}</a></h2> <span >{{ post.date }}</span><br>
+        <div class="post-tags">
+            {% if post.tags %} <span>Tags »</span> {% for tag in post.tags %}<a href="{{ get_url(posts.tags[tag].url) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}
+        </div>
 
-  <footer>
+    {% endfor %}
+</section>
+{% endblock %}
 
-  </footer>
-  
-
-</body>
-
-</html>
