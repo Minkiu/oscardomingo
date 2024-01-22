@@ -1,0 +1,45 @@
+#
+# BASE CONFIGURATION
+#
+
+# `base_url` should only be changed if your site isn't hosted at the root of a domain.
+# `domain` is used to generate absolute URLs. (required to generate a valid feed)
+#
+#   Example:
+#       https://my-site.com/
+#           base_url: /
+#           domain: https://my-site.com
+#       http://my-site.com/my-blog/
+#           base_url: /my-blog/
+#           domain: http://my-site.com
+base_url: /
+domain:
+
+
+#
+# METADATA
+#
+
+# Used in header meta tags and the site feed. (required to generate a valid feed)
+author: Oscar Domingo (@minkiu)
+# A description of your site to be used in header meta tags.
+description: Personal website of Oscar Domingo, a software engineer whith a passion for FOSS software.
+# Used in the site feed.
+email: 
+# Your site's subtitle.
+subtitle: Writing about computers and other hobbies.
+# Your site's title. (required to generate a valid feed)
+title: Oscar Domingo - Software Engineer and Open Source enthusiast.
+
+
+#
+# CONTENT SETTINGS
+#
+archive_layout: archive.html
+archives_url: /archives/
+tag_layout: tag.html
+tags_url: /archives/
+
+containers:
+    projects:
+        url: /projects/<slug>/

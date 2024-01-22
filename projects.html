@@ -1,0 +1,18 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+<h1>Projects</h1>
+<section>
+    <p>Here you'll find some of the projects I've done to date:</a></p>
+</section>
+
+<section>
+    {% for project in containers.projects %}
+        <h2>{{ project.title }}</h2>
+        {{ project.content }}
+        <a href="{{ project.project_url }}">Project Home</a>
+    {% endfor %}
+</section>
+{% endblock %}
+

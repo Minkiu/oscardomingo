@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+<head>
+    {% include 'page.header.html' %}
+
+    {% if site.title %}<title>{% if title %}{{ title }} – {% endif %}{{ site.title }}{% if not title and site.subtitle %} – {{ site.subtitle }}{% endif %}</title>{% endif %}
+</head>
+
+<body>
+  <header>
+    <div tooltip="Software Engineer and Open Source enthusiast."><a href="/">Oscar Domingo</a></div>
+    <nav>
+      <ul>
+        <li><a href="{{ get_url('projects.html') }}">Projects</a></li>
+        <!-- <li><a href="{{ get_url('archives/') }}">Archives</a></li> -->
+        <li><a href="{{ get_url('feed.xml') }}">Feed</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  {% block content %}{% endblock %}
+
+</body>
+</html>
+
