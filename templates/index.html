@@ -1,7 +1,20 @@
-{% extends "base.html" %} {% block content %}
-<h1 class="title">This is my blog made with Zola.</h1>
-<p>
-    Click <a href="{{ get_url(path='@/blog/_index.md') }}">here</a> to see my
-    posts.
-</p>
-{% endblock content %}
+{% extends 'base.html' %} {% block content %}
+<section>
+    <p>
+        Hey there! My name is Oscar (he/him), I am a Software Engineer, who worked mostly in the the Visual Effects industry, where Python is the most prevalent language using the Qt framework to create UIs. <a href="{{ get_url(path="@/about.md") }}">More About Me</a>.
+    </p>
+</section>
+
+<section>
+    Latest entries from my blog:
+
+    {% set
+    blog_section = get_section(path="blog/_index.md") %} {% for post in
+    blog_section.pages %}
+        <a href="{{ post.permalink }}">
+           <h2> {{ post.title }} </h2></a>
+        <span class="post-timestamp">Published {{ post.date }}
+        </span>
+    {% endfor %}
+</section>
+{% endblock %}
