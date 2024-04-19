@@ -8,9 +8,9 @@ html {
 }
 
 body {
-    padding: 0 20px 40px 20px;
+    padding: 0 5px 40px 5px;
     box-sizing: border-box;
-    width: 75%;
+    width: 95%;
     margin: 0 auto;
     display: flex;
     flex-flow: column nowrap;
