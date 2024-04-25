@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://oscardomingo.com"
+base_url = "https://www.oscardomingo.com"
 
 # The site title and description; used in feeds by default.
 title = "Oscar Domingo - Software Engineer."
