@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ lang }}">
+    <title>{{ config.title }}
+        {%- if term %} - {{ term.name }}
+    {%- elif section.title %} - {{ section.title }}
+        {%- endif -%}
+    </title>
+    {%- if config.description %}
+    <subtitle>{{ config.description }}</subtitle>
+    {%- endif %}
+    {%- if not feed_url is defined %}
+        {%- set feed_url = page.permalink %}
+    {% endif %}
+    <link href="{{ feed_url | safe }}" rel="self" type="application/atom+xml"/>
+  <link href="
+      {%- if section -%}
+        {{ section.permalink | escape_xml | safe }}
+      {%- else -%}
+        {{ config.base_url | escape_xml | safe }}
+      {%- endif -%}
+    "/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>{{ last_updated | default(value=now()) | date(format="%+") }}</updated>
+    <id>{{ feed_url | safe }}</id>
+    {%- if not pages is defined %}
+        {%- set getpages = get_section(path="blog/_index.md") %}
+        {%- set pages = getpages.pages %}
+    {%- endif %}
+    {%- for p in pages %}
+    {%- if not p.relative_path is starting_with("pages/") %}
+    <entry xml:lang="{{ p.lang }}">
+        <title>{{ p.title }}</title>
+        <published>{{ p.date | date(format="%+") }}</published>
+        <updated>{{ p.updated | default(value=p.date) | date(format="%+") }}</updated>
+        <link rel="alternate" href="{{ p.permalink | safe }}" type="text/html"/>
+        <id>{{ p.permalink | safe }}</id>
+        <content type="html">{{ p.content }}</content>
+    </entry>
+    {%- endif %}
+    {%- endfor %}
+</feed>
