@@ -74,6 +74,10 @@ section {
     text-align: justify;
 }
 
+pre {
+    white-space: pre-wrap;
+}
+
 .info-note,
 .warn-note,
 .danger-note {
