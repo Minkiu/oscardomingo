@@ -1,0 +1,13 @@
+// Static tasks configuration.
+//
+// Example:
+[
+  {
+    "label": "serve",
+    "command": "bin/zola-v0.18.0-x86_64-unknown-linux-gnu serve"
+  },
+  {
+    "label": "build",
+    "command": "bin/zola-v0.18.0-x86_64-unknown-linux-gnu build"
+  }
+]
