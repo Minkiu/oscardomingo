@@ -1,5 +1,5 @@
 +++
-title = "About Met"
+title = "About Me"
 date = 2024-04-18
 template ="about.html"
 +++
